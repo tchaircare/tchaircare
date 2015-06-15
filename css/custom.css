@@ -1,0 +1,584 @@
+/*
+ *	Custom jQuery organized by section
+ *	CSS relating to each component is indented
+ *
+ */ 
+
+
+/* global settings */
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+
+ /*
+  *	Navigation Bar
+  */
+
+
+.nav-container {
+	font-family: 'Lato', sans-serfif;
+	font-size: 18px;
+}
+
+	/* moves 'home' logo away from left of page */
+	.navbar-header {
+		padding-left: 40px;
+	}
+
+	/* removes default margins/borders of navbar */
+	.navbar {
+		margin: 0;
+		border: none;
+		border-radius: 0;
+		padding-right: 40px;
+		background-color: #fff;
+
+	}
+			
+		/* Customize navbar-right Logo */
+		.navbar-default .navbar-brand {
+			padding-bottom: 60px;
+			color: #FF7C58;
+			line-height: 45px;
+			font-family: 'Lato', sans-serif;
+			font-size: 40px;
+			font-weight: 900;
+		}
+
+			.navbar-default .navbar-brand:hover {
+				color: #373F48;
+
+			}
+
+			.brand-logo {
+				color: #373F48;
+			}
+		
+		/* Customize navbar-right*/
+
+		.navbar-right {
+			padding-right: 15px;
+		}
+
+
+			/* Text */
+			.navbar-default .navbar-nav li a {
+				/* Spacing between nav-links */
+
+				color: #FF7C58;
+				line-height: 45px;
+				letter-spacing: 2px;
+			}
+
+				.navbar-default .navbar-nav li a:hover {
+					color: #fff;
+					background-color: #FF7C58;
+				}
+
+	/* Style for navigation button for active page */
+	.navbar-default .navbar-nav .active a {
+		color: #fff;
+		background-color: #FF7C58;
+	}
+
+	.navbar-default .navbar-nav .active a:hover {
+		color: #fff;
+		background-color: #FF7C58;
+	}
+
+
+ /*
+  *	Jumbotron and Title Logo
+  */
+
+
+.jumbotron {
+	margin-top: 75px;
+	margin-bottom: 0;
+	padding-top: 115px;
+	padding-bottom: 100px;
+	background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5) ), url('../images/jumbotron.jpg');
+	background-position: cover;
+	text-align: center; 
+}
+	/* Allows logo to center and be responsive*/
+	.img-responsive {
+		display: inline-block;
+	}
+
+.circular {
+	margin: 0 auto;
+	margin-top: -91px;
+	margin-bottom: -37px;
+	background-color: #fff;
+	height: 150px;
+	width: 150px;
+	
+	-ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(45deg); 
+}
+
+ /*
+  *	BODY NAV (Hours/Services/Staff)
+  */
+
+
+.body-section {
+	text-align: center;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+	.icon-container {
+		width: 65%;
+		margin: 0 auto;
+	}
+
+		.body-icon {
+
+		}
+
+			.body-icon:hover {
+				opacity: 0.3;
+				cursor: pointer;
+			}
+
+		.icon-caption {
+			font-family: 'Lato', sans-serif;
+			font-weight: 300;
+			font-size: 25px;
+			line-height: 50px;
+			color: #2669A6;
+		}
+
+/*
+ * HOURS
+ */ 
+
+.body-section-hours {
+	text-align: center;
+	
+
+}
+
+/* Adds space between top and bottom of content */
+.hours-row {
+	margin-top: 30px;
+	margin-bottom: 30px;
+
+}
+	
+	.hours-title {
+		font-family: 'Lato', sans-serif;
+		padding-top: 40px;
+		padding-bottom: 10px;
+		color: #2669A6;
+	}
+
+
+	.table th, .table td { 
+     border-top: none !important; 
+ 	}
+
+	 	.hours-table-header {
+	 		color: #fff;
+	 		background-color: #2669A6;
+	 	}
+
+		.hours-text-day {
+			font-family: 'Lato';
+			font-size: 22px;
+			color: #2669A6;
+		}
+
+		.hours-text-hours {
+			color: #373F48;
+			font-size: 22px;
+		}
+
+		.hours-text-check {
+			font-size: 21px;
+			color: #FF7C58;
+			text-align: center;
+		}
+
+	#hours-close-button {
+		padding: 12px 30px;
+		color: #FF7C58;
+		background-color: #fff;
+		border-color: #FF7C58;
+		margin-top: 10px;
+		margin-bottom: 30px;
+		border-radius: 0;
+	}
+
+		#hours-close-button:hover {
+			color: #fff;
+			background-color: #FF7C58;
+		}
+
+
+
+
+
+
+/*
+*	SERVICES AND PRICING
+*/
+
+.services-title {
+
+	margin-bottom: 40px;
+	text-align: center;
+	color: #2569B0;
+}
+
+
+.services-button {
+	margin-bottom: 10px;
+	width: 100%;
+	padding: 20px 200px;
+	border-radius: 0;
+	border-color: #2569B0;
+	color: #FF7C58;
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+}
+
+	.services-button:hover {
+		background-color: #2569B0;
+		color: #fff;
+	}
+
+#services-close-button {
+		margin-top: 40px;
+		margin-bottom: 30px;
+		padding: 12px 30px;
+		color: #FF7C58;
+		background-color: #fff;
+		border-color: #FF7C58;
+		border-radius: 0;
+	}
+
+		#services-close-button:hover {
+			color: #fff;
+			background-color: #FF7C58;
+		}
+
+.wedding-link:hover {
+	text-decoration: none;
+	color: #FF7C58;
+}
+
+
+
+/*
+ *	STAFF  
+ */ 	
+
+
+.staff-content {
+	padding-top: 40px;
+	padding-bottom: 70px;
+}
+
+	.staff-title {
+		margin: 60px 0 22px 0;
+		text-align: center;
+		color: #2669A6;
+}
+
+		.card-row {
+			margin: 0 auto;
+			width: 75%;
+		}
+
+/*
+ * HISTORY
+ */ 
+
+.history-content {
+	
+	background-color: #2E283C;
+}
+
+	.history-title {
+		margin-top: 50px;
+		margin-bottom: 40px;
+		text-align: center;
+		color: #fff;
+	}
+
+	 .history-text {
+	 	font-family: 'Lato', sans-serif;
+	 	font-size: 18px;
+	 	font-weight: 300;
+	 	line-height: 30px;
+		letter-spacing: 0.83px;
+		color: #fff;
+	 }
+
+	 #history-close-button {
+	 	margin-top: 30px;
+	 	margin-bottom: 50px;
+		padding: 12px 30px;
+		color: #fff;
+		background-color: #2E283C;
+		border-color: #FF7C58;
+		border-radius: 0;
+	}
+
+	#history-close-button:hover {
+		color: #fff;
+		background-color: #FF7C58;
+	}
+
+
+/*
+ * ABOUT
+ */ 
+
+.about-content {
+	padding-top: 21px;
+	padding-bottom: 33px;
+	background-color: #FF7C58;
+}
+
+/* .about-content markup for careers.html only */
+/* only difference is larger top margin */
+
+.about-content-careers {
+	margin-top: 150px;
+	padding-top: 21px;
+	padding-bottom: 33px;
+	background-color: #FF7C58;
+}
+
+	.about-title {
+		margin-bottom: 22px;
+		text-align: center;
+		color: #fff;
+	}
+
+	 .about-text {
+	 	font-family: 'Lato', sans-serif;
+	 	font-size: 19px;
+	 	font-weight: 300;
+	 	line-height: 30px;
+	 	letter-spacing: .83px;
+		color: #fff;
+	 }
+
+	 .about-signature {
+	 	text-align: center;
+	 	font-size: 18px;
+	 	font-style: italic;
+	 	color:#fff;
+
+	 }
+
+/*
+ * CAREERS
+ */ 
+
+
+ .careers-content {
+	padding-bottom: 60px;
+	background-color: #fff;
+}
+
+ 	.careers-title {
+ 		margin-top: 60px;
+		margin-bottom: 22px;
+		text-align: center;
+		color: #2669A6;
+	}
+
+	 .careers-text {
+	 	padding-top: 30px;
+	 	font-family: 'Lato', sans-serif;
+	 	font-size: 19px;
+	 	line-height: 31px;
+		color: #2669A6;
+	 }
+
+	 .careers-details-intro {
+	 	font-family: 'Lato', sans-serif;
+	 	font-size: 19px;
+	 	line-height: 31px;
+		color: #2669A6;
+	 }
+
+	 .careers-details-text {
+	 	margin-top: 15px;
+	 	font-family: 'Lato', sans-serif;
+	 	font-size: 19px;
+	 	font-weight: 300;
+	 	line-height: 31px;
+		color: #FF7C58;
+	 }
+
+	#careers-details-button {
+		margin-top: 30px;
+		padding: 14px 25px;
+		color: #2669A6;
+		background-color: #fff;
+		border-color: #FF7C58;
+		border-radius: 0;
+	}
+
+		#careers-details-button:hover {
+			color: #fff;
+			background-color: #FF7C58;
+		}
+
+
+
+
+/*
+ * COUPON FORM
+ */ 
+
+.coupon-content {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #2E283C;
+}
+
+	.coupon-title {
+		color: #fff;
+		font-size: 34px;
+	}
+
+	.coupon-text {
+		font-family: 'Lato', sans-serif;
+		color: #fff;
+		font-size: 19px;
+	}
+
+	/* Controls the rows in the form */
+	.form-control {
+		display: inline-block;
+		font-family: 'Lato', sans-serif;
+		border: none;
+		border-radius: 0px;
+		color: #fff;
+		background-color: #433E50;
+	}
+
+	.form-control:focus {
+
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #FF7C58;
+
+	}
+
+	#send-button {
+		float:right;
+		width:95px;
+		color:#fff;
+		background-color: #FF7C58;
+		border:none;
+		border-radius:0px;
+		letter-spacing: 1px;
+	}
+
+		#send-button:hover {
+			background-color: #2669A6;
+		}
+
+/*
+ * CONTACT 
+ */ 
+
+#contact-section {
+	padding-top: 25px;
+	padding-bottom: 50px;
+	color: #fff;
+	background-color: #373F48;	
+} 
+
+	.contact-title {
+		margin-bottom: 16px;
+	}
+
+	.StoreLocation-text a {
+		margin-top: 16px;
+		color: #8991EA;
+		font-size: 15px;
+	}
+
+		.StoreLocation-text a:hover {
+			color: #FF7C58;
+			text-decoration: none;
+		}
+
+	.contact-text a {
+		margin-top: 16px;
+		color: #FF7C58;
+		font-size: 15px;
+		text-decoration: none;
+	}
+
+		.contact-text a:hover {
+			color: #8991EA; 
+		}
+
+	/* Fixes alignment of glyphicons in CONTACT section */
+	.glyphicon {
+		top: 2px;
+		right: 10px;
+		color: #8991EA;
+	}
+
+	#facebook-link a {
+		color: #8991EA;
+	}
+
+	#facebook-link a:hover {
+		text-decoration: none;
+		color: #FF7C58;
+	}
+
+/*
+ * FOOTER 
+ */ 
+
+.copyright {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #000;
+}
+
+	#footer-text {
+		font-family: "Lato", sans-serif;
+		font-weight: 100;
+		color: #fff;
+	}
+
+/*
+ * CENTER COLUMNS IN GRID
+ */ 
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right: 0 auto;
+}
+.col-fixed {
+    /* custom width */
+    width:400px;
+}
+
+
+
