@@ -100,8 +100,8 @@ ul {
 	margin-bottom: 0;
 	padding-top: 115px;
 	padding-bottom: 100px;
-	background-color: #fff;
 	background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5) ), url('../images/jumbotron.jpg');
+	background-color: #fff;
 	background-position: cover;
 	text-align: center; 
 }
