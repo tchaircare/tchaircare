@@ -12,6 +12,7 @@ I hoped to improve this website by:
 * Optimize resources for speed
 * And of course, making it pretty
 
+Visit the site at: http://tchaircare.github.io/
 
 
 
