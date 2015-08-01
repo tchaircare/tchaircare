@@ -34,8 +34,7 @@ ul {
 		border: none;
 		border-radius: 0;
 		padding-right: 40px;
-		background-color: #fff;
-
+		background: url(http://meteortips.davidturnbull1.netdna-cdn.com/assets/images/dark_mosaic.png);
 	}
 			
 		/* Customize navbar-right Logo */
@@ -499,7 +498,7 @@ ul {
 	padding-top: 25px;
 	padding-bottom: 50px;
 	color: #fff;
-	background-color: #373F48;	
+	background: url(http://meteortips.davidturnbull1.netdna-cdn.com/assets/images/dark_mosaic.png);
 } 
 
 	.contact-title {
@@ -548,16 +547,15 @@ ul {
  * FOOTER 
  */ 
 
+
 .copyright {
-	padding-top: 20px;
-	padding-bottom: 20px;
-	background-color: #000;
+	padding-top: 45px;
 }
 
 	#footer-text {
 		font-family: "Lato", sans-serif;
-		font-weight: 100;
 		color: #fff;
+		letter-spacing: 1px;
 	}
 
 /*
