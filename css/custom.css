@@ -110,6 +110,25 @@ ul {
 		padding-left: 200px;
 	}
 
+	/* Portrait tablets and small desktops */
+	@media (max-width: 991px) {
+		.img-responsive {
+		padding-left: 0px;
+		}
+		.jumbotron {
+			text-align: center;
+		}
+	}
+
+	@media (max-width: 480px) {
+	.img-responsive {
+		padding-left: 0px;
+	}
+	.jumbotron {
+			text-align: center;
+		}
+}
+
 .circular {
 	margin: 0 auto;
 	margin-top: -91px;
