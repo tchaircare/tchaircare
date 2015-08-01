@@ -48,12 +48,12 @@ ul {
 		}
 
 			.navbar-default .navbar-brand:hover {
-				color: #373F48;
+				color: #009FC7;
 
 			}
 
 			.brand-logo {
-				color: #373F48;
+				color: #009FC7;
 			}
 		
 		/* Customize navbar-right*/
@@ -67,25 +67,25 @@ ul {
 			.navbar-default .navbar-nav li a {
 				/* Spacing between nav-links */
 
-				color: #FF7C58;
+				color: #009FC7;
 				line-height: 45px;
 				letter-spacing: 2px;
 			}
 
 				.navbar-default .navbar-nav li a:hover {
 					color: #fff;
-					background-color: #FF7C58;
+					background-color: #009FC7;
 				}
 
 	/* Style for navigation button for active page */
 	.navbar-default .navbar-nav .active a {
 		color: #fff;
-		background-color: #FF7C58;
+		background-color: #009FC7;
 	}
 
 	.navbar-default .navbar-nav .active a:hover {
 		color: #fff;
-		background-color: #FF7C58;
+		background-color: #009FC7;
 	}
 
 
@@ -152,7 +152,7 @@ ul {
 			font-weight: 300;
 			font-size: 25px;
 			line-height: 50px;
-			color: #2669A6;
+			color: #009FC7;
 		}
 
 /*
@@ -287,9 +287,9 @@ ul {
 }
 
 	.staff-title {
-		margin: 60px 0 22px 0;
+		margin: 130px 0 22px 0;
 		text-align: center;
-		color: #2669A6;
+		color: #009FC7;
 }
 
 		.card-row {
@@ -392,10 +392,10 @@ ul {
 }
 
  	.careers-title {
- 		margin-top: 60px;
+ 		margin-top: 130px;
 		margin-bottom: 22px;
 		text-align: center;
-		color: #2669A6;
+		color: #009FC7;
 	}
 
 	 .careers-text {
@@ -403,14 +403,14 @@ ul {
 	 	font-family: 'Lato', sans-serif;
 	 	font-size: 19px;
 	 	line-height: 31px;
-		color: #2669A6;
+		color: #009FC7;
 	 }
 
 	 .careers-details-intro {
 	 	font-family: 'Lato', sans-serif;
 	 	font-size: 19px;
 	 	line-height: 31px;
-		color: #2669A6;
+		color: #009FC7;
 	 }
 
 	 .careers-details-text {
@@ -507,7 +507,7 @@ ul {
 
 	.StoreLocation-text a {
 		margin-top: 16px;
-		color: #8991EA;
+		color: #009FC7;
 		font-size: 15px;
 	}
 
@@ -524,18 +524,18 @@ ul {
 	}
 
 		.contact-text a:hover {
-			color: #8991EA; 
+			color: #009FC7; 
 		}
 
 	/* Fixes alignment of glyphicons in CONTACT section */
 	.glyphicon {
 		top: 2px;
 		right: 10px;
-		color: #8991EA;
+		color: #009FC7;
 	}
 
 	#facebook-link a {
-		color: #8991EA;
+		color: #009FC7;
 	}
 
 	#facebook-link a:hover {

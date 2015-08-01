@@ -9,8 +9,6 @@
  
     <!-- Bootstrap CSS-->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
-
-  
     
     <!-- Custom CSS -->
     <link href="../css/custom.css" rel="stylesheet">
@@ -46,7 +44,7 @@
   <!-- NAVIGATION BAR -->
 
 <section class="nav-container">
-  <nav role="navigation" class="navbar navbar-default">
+  <nav role="navigation" class="navbar navbar-default navbar-fixed-top">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
           <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
@@ -668,44 +666,47 @@
   <!-- CONTACT -->
 
   <section class="container-fluid" id="contact-section"> 
+    <div class="container-fluid">
+       <div class="col-md-3 col-md-offset-2">
+            <h2 class="contact-title">Store Location</h2>
+            <!-- Redirects to Google Maps w/ Current Location -->
+            <p class="StoreLocation-text"><a href="https://www.google.com/maps/dir/Current+Location/8+Carlisle+street+Gettysburg+Pennsylvania+17325">
+            Town & Campus Hair Care Inc. <br>
+            8 Carlisle St.<br>
+            Gettysburg, PA 17325
+            </a></p>
+        </div>
 
-   <div class="col-md-3 col-md-offset-2">
-        <h2 class="contact-title">Store Location</h2>
-        <!-- Redirects to Google Maps w/ Current Location -->
-        <p class="StoreLocation-text"><a href="https://www.google.com/maps/dir/Current+Location/8+Carlisle+street+Gettysburg+Pennsylvania+17325">
-        Town & Campus Hair Care Inc. <br>
-        8 Carlisle St.<br>
-        Gettysburg, PA 17325
-        </a></p>
-    </div>
+        <div class="col-md-3">
+            <h2 class="contact-title">Contact Us</h2>
+              <p class="contact-text"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span><a href="tel:+7173342904"> (717)-334-2904</a></p>
+              <p class="contact-text"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="mailto:info@townandcampushaircare?subject=Hello There!">info@townandcampushaircare.com</a></p>
+              <p class="contact-text"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="mailto:info@townandcampushaircare?subject=Hello There!">greg@townandcampushaircare.com</a></p>
+        </div>
+            
 
-    <div class="col-md-3">
-        <h2 class="contact-title">Contact Us</h2>
-          <p class="contact-text"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span><a href="tel:+7173342904"> (717)-334-2904</a></p>
-          <p class="contact-text"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="mailto:info@townandcampushaircare?subject=Hello There!">info@townandcampushaircare.com</a></p>
-          <p class="contact-text"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="mailto:info@townandcampushaircare?subject=Hello There!">greg@townandcampushaircare.com</a></p>
-    </div>
-        
-
-    <div class="col-md-3">
-        <h2 class="contact-title">Follow Us <br>on <span id="facebook-link"><a href="https://www.facebook.com/TownAndCampus?fref=ts">Facebook</a></span>!</h2>
-        <div class="fb-like" style="margin-top:15px;" data-href="https://www.facebook.com/TownAndCampus?rf=146972688654507" data-width="500px" data-layout="button" data-action="like" data-show-faces="true" data-share="true">
+        <div class="col-md-3">
+            <h2 class="contact-title">Follow Us <br>on <span id="facebook-link"><a href="https://www.facebook.com/TownAndCampus?fref=ts">Facebook</a></span>!</h2>
+            <div class="fb-like" style="margin-top:15px;" data-href="https://www.facebook.com/TownAndCampus?rf=146972688654507" data-width="500px" data-layout="button" data-action="like" data-show-faces="true" data-share="true">
+            </div>
         </div>
     </div>
+
+       <!-- COPYRIGHT FOOTER -->
+
+  <footer class="copyright text-center">
+    <p id="footer-text">Copyright 2015 © Town & Campus Hair Care, Inc. All rights reserved.</p>
+  </footer> 
 
 
   </section>
 
 
-  <!-- COPYRIGHT FOOTER -->
 
-  <footer class="copyright text-center">
-    <p id="footer-text">Copyright 2015 © Town & Campus Hair Care, Inc. All rights reserved.</p>
-  </footer> 
         
 
- 
-
+    <!-- Font Awesome - Not a critical rendered element -->
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" />
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
@@ -718,7 +719,6 @@
 
     <!-- Staff Card CSS -->
     <link href="../css/rotating-card.css" rel="stylesheet" />
-    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" />
 
 
 
