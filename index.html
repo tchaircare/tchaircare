@@ -82,32 +82,7 @@
    
   </div>
 
-    <!-- BODY NAV (Hours/Services/Staff) -->
-
-  <section class="container-fluid body-section" id="body-div">
-
-    <div class="row icon-container">
-
-        <div class="col-md-4">
-          <img src="../images/Clock-100.png" class="body-icon" data-toggle="collapse" data-target="#hours">
-          <h2 class="icon-caption">Hours</h2>
-        </div>
-
-        <div class="col-md-4">
-          <img src="../images/Cut-100.png" class="body-icon" data-toggle="collapse" data-target="#services">
-          <h2 class="icon-caption">Services & Pricing</h2>
-        </div>
-
-        <div class="col-md-4">
-          <img src="../images/University-100.png" class="body-icon" data-toggle="collapse" data-target="#history">
-          <h2 class="icon-caption">History</h2>
-        </div>
-    </div> <!-- end row -->
-    <div id="about">
-</div>
-  </section>
-
-    <!-- HOURS (intially hidden) -->
+      <!-- HOURS (intially hidden) -->
 
   <section class="container-fluid body-section-hours collapse" id="hours">
 
@@ -161,8 +136,7 @@
     </div> <!-- end row -->
   </section>
 
-
-  <!-- SERVICES AND PRICING (initially hidden) -->
+   <!-- SERVICES AND PRICING (initially hidden) -->
 
   <section class="container-fluid services-content collapse" id="services">
     <div class="col-md-6 col-md-offset-3">
@@ -606,6 +580,33 @@
 
   </section>
 
+    <!-- BODY NAV (Hours/Services/Staff) -->
+
+  <section class="container-fluid body-section" id="body-div">
+
+    <div class="row icon-container">
+
+        <div class="col-md-4">
+          <img src="../images/Clock-100.png" class="body-icon" data-toggle="collapse" data-target="#hours">
+          <h2 class="icon-caption">Hours</h2>
+        </div>
+
+        <div class="col-md-4">
+          <img src="../images/Cut-100.png" class="body-icon" data-toggle="collapse" data-target="#services">
+          <h2 class="icon-caption">Services & Pricing</h2>
+        </div>
+
+        <div class="col-md-4">
+          <img src="../images/University-100.png" class="body-icon" data-toggle="collapse" data-target="#history">
+          <h2 class="icon-caption">History</h2>
+        </div>
+    </div> <!-- end row -->
+    <div id="about">
+</div>
+  </section>
+
+
+
   <!-- ABOUT -->
 
   <section class="container-fluid about-content">
@@ -624,19 +625,19 @@
   <!-- COUPON FORM -->
 
   <section class="container-fluid coupon-content">
-    <div class="row row-centered">
-
-      <div class="col-md-6 col-centered col-fixed">
+      <div class="col-md-6">
+        <div class="col-md-6 pull-right">
         <h3 class="coupon-title">20% Discount!</h3>
         <p class="coupon-text">
         New Customers: Fill out this <br>
         form and receive a discount on <br>
         your first appointment.
         </p>
+        </div>
       </div>
      
-      <div class="col-md-6 col-centered col-fixed">
-        <form class="coupon-form" method="post" name="myemailform" action="form-to-email.php">
+      <div class="col-md-6">
+        <form class="coupon-form col-md-6" method="post" name="myemailform" action="form-to-email.php">
           <div class="form-group">
           <input type="text" name="name" class="form-control" id="input-name" placeholder="Name">
           </div>
@@ -650,7 +651,6 @@
         </form> 
       </div>
 
-    </div>
   </section>
 
   <!-- CONTACT -->
@@ -694,8 +694,6 @@
   </section>
 
    
- <!-- COPYRIGHT FOOTER -->
-
  
 
   

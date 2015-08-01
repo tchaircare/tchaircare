@@ -451,11 +451,13 @@ ul {
 }
 
 	.coupon-title {
+		text-align: left;
 		color: #fff;
 		font-size: 34px;
 	}
 
 	.coupon-text {
+		text-align: left;
 		font-family: 'Lato', sans-serif;
 		color: #fff;
 		font-size: 19px;
