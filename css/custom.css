@@ -33,7 +33,6 @@ ul {
 		margin: 0;
 		border: none;
 		border-radius: 0;
-		padding-right: 40px;
 		background: url(http://meteortips.davidturnbull1.netdna-cdn.com/assets/images/dark_mosaic.png);
 	}
 			
@@ -59,7 +58,7 @@ ul {
 		/* Customize navbar-right*/
 
 		.navbar-right {
-			padding-right: 15px;
+			padding-right: 40px;
 		}
 
 
@@ -99,15 +98,16 @@ ul {
 	margin-bottom: 0;
 	padding-top: 115px;
 	padding-bottom: 100px;
-	background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5) ), url('../images/jumbotron.jpg');
+	background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) ), url('../images/jumbotron.jpg');
 	background-color: #fff;
 	background-repeat: no-repeat;
 	background-position: cover;
-	text-align: center; 
 }
+
 	/* Allows logo to center and be responsive*/
 	.img-responsive {
 		display: inline-block;
+		padding-left: 200px;
 	}
 
 .circular {
