@@ -14,7 +14,7 @@
     <link href="../css/custom.css" rel="stylesheet">
 
     <!-- Google Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,100,700,900' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,900' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -29,19 +29,9 @@
 <body>
 
 
-  <!-- Facebook Plugin SDK -->
-  <div id="fb-root"></div>
-  <script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
-  fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));</script>
 
 
-
-  <!-- NAVIGATION BAR -->
+   <!-- NAVIGATION BAR -->
 
 <section class="nav-container">
   <nav role="navigation" class="navbar navbar-default navbar-fixed-top">
@@ -53,13 +43,13 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
           </button>
-        <a href="../index" class="navbar-brand">T<i class="fa fa-scissors fa-fw text-muted brand-logo"></i>C</a>
+          <a href="../index" class="navbar-brand">T<i class="fa fa-scissors fa-fw text-muted brand-logo"></i>C</a> 
       </div>
       <!-- Collection of nav links and other content for toggling -->
       <div id="navbarCollapse" class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
               <li><a href="#about">About</a></li>
-              <li class="active"><a href="staff">Staff</a></li>
+               <li class="active"> <a href="staff">Staff</a></li>
               <li><a href="careers">Careers</a></li>
               <li><a href="#contact-section">Contact</a></li>
           </ul>
@@ -702,15 +692,37 @@
   </section>
 
 
+    <!-- Facebook Plugin SDK -->
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
+  fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
 
+
+    <!-- Rotate card script -->
+    <script type="text/javascript">
+    function rotateCard(btn){
+    var $card = $(btn).closest('.card-container');
+    console.log($card);
+    if($card.hasClass('hover')){
+    $card.removeClass('hover');
+    } else {
+    $card.addClass('hover');
+    }
+    }
+    </script>
         
 
  
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
 
 
     <!-- Staff Card CSS -->
@@ -718,32 +730,7 @@
 
 
 
-<script type="text/javascript">
-    $().ready(function(){
-        $('[rel="tooltip"]').tooltip();
-        
-        $('a.scroll-down').click(function(e){
-            e.preventDefault();
-            scroll_target = $(this).data('href');
-             $('html, body').animate({
-                 scrollTop: $(scroll_target).offset().top - 60
-             }, 1000);
-        });
 
-    });
-    
-    function rotateCard(btn){
-        var $card = $(btn).closest('.card-container');
-        console.log($card);
-        if($card.hasClass('hover')){
-            $card.removeClass('hover');
-        } else {
-            $card.addClass('hover');
-        }
-    }
-    
-    
-</script>
 
   </body>
 </html>
