@@ -8,7 +8,7 @@
     <title>Town & Campus Hair Care Inc.</title>
  
     <!-- CSS -->
-    <link href="../build/all.css" rel="stylesheet">
+    <link href="../css/all.css" rel="stylesheet">
 
     <!-- Google Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,900' rel='stylesheet' type='text/css'>
@@ -165,15 +165,22 @@
 
   </section>
 
- 
 
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="../js/bootstrap.min.js"></script>
+  <!-- jQuery CDN -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <!-- Bootstrap JS CDN -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <!-- Bootstrap JS local fallback -->
+  <script>if(typeof($.fn.modal) === 'undefined') {document.write('<script src="/js/bootstrap.min.js"><\/script>')}</script>
+  <!-- Bootstrap CSS local fallback -->
+  <script>
+  $(document).ready(function() {
+  var bodyColor = $('body').css('color');
+  if(bodyColor != 'rgb(51, 51, 51)') {
+  $("head").prepend('<link rel="stylesheet" href="/css/bootstrap.min.css">');}});
+  </script>
 
-   
 
 
 

@@ -1,25 +1,28 @@
 // import from npm
 var gulp = require('gulp'),
+	minifyHTML = require('gulp-minify-html'), 
 	uncss = require('gulp-uncss'),
 	uglify = require('gulp-uglify'),
-	uglifycss = require('gulp-uglifycss'),
+	uglifycss = require('gulp-csso'),
 	imagemin = require('gulp-imagemin'),
 	concat = require('gulp-concat'),
-	concatCSS = require('gulp-concat-css'); 
+	concatCSS = require('gulp-concat-css');
 
+// HTML - Minify
+gulp.task('minify-html', function() {
+	var opts = {
+		conditionals: true,
+		spare: true
+	};
 
-/* // Javascript -> minify, concat
-gulp.task('js', function(){
-	return gulp.src('js/*.js')
-	.pipe(uglify())
-	.pipe(gulp.dest('build'));
-	});
-
-*/
+	return gulp.src(['./index.html','views/careers.html', 'views/staff.html'])
+		.pipe(minifyHTML(opts))
+		.pipe(gulp.dest('./build/'));
+	})
 
 // CSS -> Remove Unused, minify, concat
 gulp.task('styles', function(){
-	return gulp.src('css/*.css')
+	return gulp.src(['css/bootstrap.min.css', 'css/custom.css'])
 		.pipe(uncss({
 			html: ['index.html', 'views/*.html'], ignore: [
             ".fade",
@@ -32,7 +35,7 @@ gulp.task('styles', function(){
 		}))
 		.pipe(concatCSS('all.css'))
 		.pipe(uglifycss())
-		.pipe(gulp.dest('build/'));
+		.pipe(gulp.dest('build/css'));
 	});
 
 // Compress Images
@@ -46,5 +49,5 @@ gulp.task('image', function(){
 
 
 // allows you to just type 'gulp' in terminal
-gulp.task('default', ['styles', 'image']); 
+gulp.task('default', ['minify-html', 'styles', 'image']); 
 
