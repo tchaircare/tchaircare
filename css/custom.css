@@ -368,14 +368,16 @@ ul {
 	background-color: #FF7C58;
 }
 
-/* .about-content markup for careers.html only */
-/* only difference is larger top margin */
+/* .about-content markup for careers.html and staff.html only */
+/* adjusted margin/padding for collapsibility */
 
-.about-content-careers {
-	margin-top: 150px;
+.about-content-alt {
+	background-color: #FF7C58;
+}
+
+.row-alt {
 	padding-top: 21px;
 	padding-bottom: 33px;
-	background-color: #FF7C58;
 }
 
 	.about-title {
@@ -407,54 +409,59 @@ ul {
 
 
  .careers-content {
-	padding-bottom: 60px;
 	background-color: #fff;
 }
 
- 	.careers-title {
- 		margin-top: 130px;
-		margin-bottom: 22px;
-		text-align: center;
-		color: #009FC7;
+	.careers-content-row {
+		margin-top: 40px;
+		margin-bottom: 60px;
 	}
 
-	 .careers-text {
-	 	padding-top: 30px;
-	 	font-family: 'Lato', sans-serif;
-	 	font-size: 19px;
-	 	line-height: 31px;
-		color: #009FC7;
-	 }
-
-	 .careers-details-intro {
-	 	font-family: 'Lato', sans-serif;
-	 	font-size: 19px;
-	 	line-height: 31px;
-		color: #009FC7;
-	 }
-
-	 .careers-details-text {
-	 	margin-top: 15px;
-	 	font-family: 'Lato', sans-serif;
-	 	font-size: 19px;
-	 	font-weight: 300;
-	 	line-height: 31px;
-		color: #FF7C58;
-	 }
-
-	#careers-details-button {
-		margin-top: 30px;
-		padding: 14px 25px;
-		color: #2669A6;
-		background-color: #fff;
-		border-color: #FF7C58;
-		border-radius: 0;
-	}
-
-		#careers-details-button:hover {
-			color: #fff;
-			background-color: #FF7C58;
+	 	.careers-title {
+	 		margin-top: 130px;
+			margin-bottom: 22px;
+			text-align: center;
+			color: #009FC7;
 		}
+
+		 .careers-text {
+		 	padding-top: 30px;
+		 	font-family: 'Lato', sans-serif;
+		 	font-size: 19px;
+		 	line-height: 31px;
+			color: #009FC7;
+		 }
+
+		 .careers-details-intro {
+		 	font-family: 'Lato', sans-serif;
+		 	font-size: 19px;
+		 	line-height: 31px;
+			color: #009FC7;
+		 }
+
+		 .careers-details-text {
+		 	margin-top: 15px;
+		 	font-family: 'Lato', sans-serif;
+		 	font-size: 19px;
+		 	font-weight: 300;
+		 	line-height: 31px;
+			color: #FF7C58;
+		 }
+
+		#careers-details-button {
+			margin-top: 30px;
+			margin-bottom: 50px;
+			padding: 14px 25px;
+			color: #2669A6;
+			background-color: #fff;
+			border-color: #FF7C58;
+			border-radius: 0;
+		}
+
+			#careers-details-button:hover {
+				color: #fff;
+				background-color: #FF7C58;
+			}
 
 
 
