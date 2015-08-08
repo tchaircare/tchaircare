@@ -5,710 +5,637 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-
     <meta name="keywords" content="Gettysburg, Town and Campus, hair, barber, barbershop">
     <meta name="description" content="Town and Campus Haircare - Gettysburg">
-
-
     <title>Town & Campus Hair Care Inc.</title>
- 
+    
     <!-- CSS -->
     <link href="../build/css/all.css" rel="stylesheet">
-
     <!-- Google Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,900' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
-
     
-
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-
-
   <body>
-
-
-
-
-
-
-  <!-- NAVIGATION BAR -->
-
-  <section class="nav-container">
+    <!-- NAVIGATION BAR -->
+    <section class="nav-container">
       <nav role="navigation" class="navbar navbar-default navbar-fixed-top">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-              <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
-                  <span class="sr-only">Toggle navigation</span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-              </button>
-              <a href="index" class="navbar-brand">TC</a>
-          </div>
-          <!-- Collection of nav links and other content for toggling -->
-          <div id="navbarCollapse" class="collapse navbar-collapse">
-              <ul class="nav navbar-nav navbar-right">
-                  <li class="navbar-right-li"><a href="#about">About</a></li>
-                  <li class="navbar-right-li"><a href="/views/staff">Staff</a></li>
-                  <li class="navbar-right-li"><a href="/views/careers">Careers</a></li>
-                  <li class="navbar-right-li"><a href="#contact-section">Contact</a></li>
-              </ul>
-          </div>
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button>
+          <a href="index" class="navbar-brand">TC</a>
+        </div>
+        <!-- Collection of nav links and other content for toggling -->
+        <div id="navbarCollapse" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="navbar-right-li"><a href="#about">About</a></li>
+            <li class="navbar-right-li"><a href="/views/staff">Staff</a></li>
+            <li class="navbar-right-li"><a href="/views/careers">Careers</a></li>
+            <li class="navbar-right-li"><a href="#contact-section">Contact</a></li>
+          </ul>
+        </div>
       </nav>
-  </section>
-
+    </section>
     <!-- JUMBOTRON -->
-
-  <div class="jumbotron">
-
-     <img class="img-responsive" id="jumbotron-logo" src="../img/logo.png">
-   
-  </div>
-
-      <!-- HOURS (intially hidden) -->
-
-  <section class="container-fluid body-section-hours collapse" id="hours">
-
-    <div class="row hours-row">
-
-      <div class="col-md-2 col-md-offset-2">
-        <h1 class="hours-title"> Hours </h1>
-        <button class="btn btn-default" id="hours-close-button" role="button" data-toggle="collapse" data-target="#hours">close</button>
-      </div>
-
-      <div class="col-md-5 col-md-offset-1 text-left">
-        <table class="table">
-          <tr>
-            <td class="hours-table-header">Day</td>
-            <td class="hours-table-header">Hours</td>
-            <td class="hours-table-header text-center">Appointments Accepted</td>
-          </tr>
-          <tr>
-            <td class="hours-text-day">Monday:</td>
-            <td class="hours-text-hours">11am to 8pm</td>
-          </tr>
-           <tr>
-            <td class="hours-text-day">Tuesday:</td>
-            <td class="hours-text-hours">8am to 5:45pm</td>
-            <td class="hours-text-check">&#10004;</i></td>
-          </tr>
-           <tr>
-            <td class="hours-text-day">Wednesday:</td>
-            <td class="hours-text-hours">8am to 7pm</td>
-            <td class="hours-text-check">&#10004;</td>
-          </tr>
-           <tr>
-            <td class="hours-text-day">Thursday:</td>
-            <td class="hours-text-hours">8am to 7pm</td>
-            <td class="hours-text-check">&#10004;</td>
-          </tr>
-           <tr>
-            <td class="hours-text-day">Friday:</td>
-            <td class="hours-text-hours">8am to 5:45pm</td>
-          </tr>
-           <tr>
-            <td class="hours-text-day">Saturday:</td>
-            <td class="hours-text-hours">7:30am to 12:00pm</td>
-          </tr>
-           <tr>
-            <td class="hours-text-day">Sunday:</td>
-            <td class="hours-text-hours">Closed</td>
-          </tr>
-        </table>
-      </div> <!-- end column -->
-    </div> <!-- end row -->
-  </section>
-
-   <!-- SERVICES AND PRICING (initially hidden) -->
-
-  <section class="container-fluid services-content collapse" id="services">
-    <div class="col-md-6 col-md-offset-3">
-      <h1 class="services-title">Services</h1>
-      <ul>
-        <!-- Haircutting -->
-        <li><button class="btn btn-default services-button" data-toggle="collapse" data-target="#haircutting" role="button">Haircutting</button></li>
-        <li class="col-md-11 col-md-offset-1 collapse" id="haircutting">
-
-        <table class="table">
-        <tr>
-        <td> <span style="text-decoration:underline;font-size:15px;font-weight:bold;">Male</span> </td>
-        </tr>
-        <tr>
-        <td>Regular Dry Haircut</td>
-        <td> $14.50 </td>
-        </tr>
-        <tr>
-        <td>Regular Flattops</td>
-        <td> $15.50 </td>
-        </tr>
-        <tr>
-        <td>Wet Cut, Blow Dry & Style</td>
-        <td> $19.75 </td>
-        </tr>
-        <tr>
-        <td>Shampoo, Blow Dry & Style</td>
-        <td> $24.00 </td>
-        </tr>
-        <tr>
-        <td> Hot Lather Face Shave </td>
-        <td> $22.00 </td>
-        </tr>
-        <tr>
-        <td> Facial Hair Trimming </td>
-        <td> $3.25 - $6.75 </td>
-        </tr>
-        <tr>
-        <td> <span style="text-decoration:underline;font-size:15px;font-weight:bold;">Female</span> </td>
-        </tr>
-        <tr>
-        <td> Bang Trim </td>
-        <td> $10.50 </td>
-        </tr><tr>
-        <td> Dry Haircut (Short) </td>
-        <td> $16.00 </td>
-        </tr><tr>
-        <td> Wet Cut, Blow Dry & Style </td>
-        <td> $27.00 </td>
-        </tr><tr>
-        <td> Shampoo, Blow Dry & Style </td>
-        <td> $31.00 </td>
-        </tr>
-        </table>
-
-        </li> <!-- end haircutting section -->
-
-        <!-- Color -->
-        <li><button class="btn btn-default services-button" data-toggle="collapse" data-target="#color" role="button">Color</button></li>
-        <li class="col-md-11 col-md-offset-1 collapse" id="color">
-
-        <table class="table">
-
-          <tr>
-            <td>Goldwell Color</td>
-            <td> $45.00 </td>
-          </tr>
-          <tr>
-            <td>Highlights with Bleach thru Cap</td>
-            <td> $49.00 </td>
-          </tr>
-          <tr>
-            <td>Minimum Foil Charge</td>
-            <td> $28.00</td>
-          </tr>
-          <tr>
-            <td>6-10 Foils</td>
-            <td> Each Foil $5.50 </td>
-          </tr>
-          <tr>
-            <td> 11-20 Foils </td>
-            <td> Each Foil $5.00 </td>
-          </tr>
-          <tr>
-            <td> More than 20 Foils </td>
-            <td> Each Foil $4.50 </td>
-          </tr>
-          <tr>
-            <td> Bleach 2'' to 6'' Hair </td>
-            <td> $54.00 </td>
-          </tr><tr>
-            <td> Bleach over 6'' </td>
-            <td> Call for Pricing</td>
-          </tr>
-          <tr>
-            <td> Color Correction </td>
-            <td> Call for Pricing </td>
-          </tr>
-
-        </table>
-
-        </li> <!-- end color section -->
-
-        <!-- Perm -->
-        <li><button class="btn btn-default services-button"  data-toggle="collapse" data-target="#perm" role="button">Perm</button></li>
-
-        <li class="col-md-11 col-md-offset-1 collapse" id="perm">
-
-        <table class="table">
-
-          <tr>
-            <td>Partial Perm (less than 20 rollers)</td>
-            <td> $52.00 </td>
-          </tr>
-          <tr>
-            <td>Regular Perm</td>
-            <td> $69.00 </td>
-          </tr>
-          <tr>
-            <td> Spiral Perm </td>
-            <td> $96.00 </td>
-          </tr>
-
-        </table>
-
-        </li> <!-- end perm section -->
-
-        <!-- Waxing -->
-        <li><button class="btn btn-default services-button" id="" data-toggle="collapse" data-target="#waxing" role="button">Waxing</button></li>
-        <li class="col-md-11 col-md-offset-1 collapse" id="waxing">
-
-          <table class="table">
-
-            <tr>
-              <td> <span style="text-decoration:underline;font-size:15px;font-weight:bold;">Brazilian Waxing</span> </td>
-            </tr>
-            <tr>
-              <td>Bikini Wax</td>
-              <td> $30.00 - $40.00 </td>
-            </tr>
-            <tr>
-              <td>Brazilian Bikini Wax</td>
-              <td> $45.00 - $50.00 </td>
-            </tr>
-            <tr>
-              <td> Sensual Brazilian Wax </td>
-              <td> $55.00 - $62.00 </td>
-            </tr>
-            <tr>
-              <td> Full Monty Wax </td>
-              <td> $60.00 - $70.00 </td>
-            </tr>
-            <tr>
-              <td> Buttocks Only </td>
-              <td> $20.00 - $30.00 </td>
-            </tr>
-            <tr>
-              <td> Underarm Wax </td>
-              <td> $20.00 - $30.00 </td>
-            </tr>
-            <tr>
-              <td> Leg Wax: Half Legs </td>
-              <td> $60.00 </td>
-            </tr>
-            <tr>
-              <td> Leg Wax: Full Legs </td>
-              <td> $110.00 </td>
-            </tr>
-             <tr>
-              <td> <span style="text-decoration:underline;font-size:15px;font-weight:bold;">Mens Waxing</span> </td>
-            </tr>
-            <tr>
-              <td> Chest Wax </td>
-              <td> $30.00 and up </td>
-            </tr>
-            <tr>
-              <td> Back Wax </td>
-              <td> $30.00 and up </td>
-            </tr>
-            <tr>
-              <td> <span style="text-decoration:underline;font-size:15px;font-weight:bold;">Facial Waxing</span> </td>
-            </tr>
-            <tr>
-              <td> Eyebrow First Visit </td>
-              <td> $12.50 </td>
-            </tr>
-            <tr>
-              <td> Eyebrow Maintenance </td>
-              <td> $12.00 </td>
-            </tr>
-            <tr>
-              <td> Lip, Chin, or Sideburns </td>
-              <td> $11.00 </td>
-            </tr>
-
-          </table>
-
-        </li> <!-- end waxing section -->
+    <div class="jumbotron">
+      <img class="img-responsive" id="jumbotron-logo" src="../img/logo.png">
       
-        <!-- Spa & Nails -->
-
-        <li><button class="btn btn-default services-button" id="" data-toggle="collapse" data-target="#spa-services" role="button">Spa & Nails</button></li>
-
-
-        <li class="col-md-11 col-md-offset-1 collapse" id="spa-services">
-
-        <table class="table">
-
-            <tr>
-              <td> <span style="text-decoration:underline;font-size:15px;font-weight:bold;">Manicures</span> </td>
-            </tr>
-            <tr>
-              <td>Female Manicure</td>
-              <td> $24.00</td>
-            </tr>
-            <tr>
-              <td>French Tip Manicure</td>
-              <td> $29.00 </td>
-            </tr>
-            <tr>
-              <td> Male Manicure </td>
-              <td> $19.00 </td>
-            </tr>
-            <tr>
-              <td> Paraffin Dip </td>
-              <td> $7.25 </td>
-            </tr>
-            <tr>
-              <td> <span style="text-decoration:underline;font-size:15px;font-weight:bold;">Pedicures</span> </td>
-            </tr>
-            <tr>
-              <td> T&C Pedicure </td>
-              <td> $37.00 </td>
-            </tr>
-            <tr>
-              <td> Spa Pedicure</td>
-              <td> $43.00 </td>
-            </tr>
-            <tr>
-              <td> Male Pedicure </td>
-              <td> $31.00 </td>
-            </tr>
-            <tr>
-              <td> French Tip on Toes </td>
-              <td> Add $6.25 </td>
-            </tr>
-             <tr>
-              <td> <span style="text-decoration:underline;font-size:15px;font-weight:bold;">Facials</span> </td>
-            </tr>
-            <tr>
-              <td> Spa Facial </td>
-              <td> $36.00 </td>
-            </tr>
-
-        </table>
-
-        </li> <!-- end Spa Services section -->
-
-        <!-- Tanning -->
-
-        <li><button class="btn btn-default services-button" id="" data-toggle="collapse" data-target="#tanning" role="button">Tanning</button></li>
-        <li class="col-md-11 col-md-offset-1 collapse" id="tanning">
-
+    </div>
+    <!-- HOURS (intially hidden) -->
+    <section class="container-fluid body-section-hours collapse" id="hours">
+      <div class="row hours-row">
+        <div class="col-md-2 col-md-offset-2">
+          <h1 class="hours-title"> Hours </h1>
+          <button class="btn btn-default" id="hours-close-button" role="button" data-toggle="collapse" data-target="#hours">close</button>
+        </div>
+        <div class="col-md-5 col-md-offset-1 text-left">
           <table class="table">
-
             <tr>
-              <td> <span style="text-decoration:underline;font-size:15px;font-weight:bold;">UV Tanning</span> </td>
-            </tr>
-            <tr>
-              <td>1 Session</td>
-              <td> $7.00 </td>
+              <td class="hours-table-header">Day</td>
+              <td class="hours-table-header">Hours</td>
+              <td class="hours-table-header text-center">Appointments Accepted</td>
             </tr>
             <tr>
-              <td> 5 Sessions </td>
-              <td> $29.00 </td>
+              <td class="hours-text-day">Monday:</td>
+              <td class="hours-text-hours">11am to 8pm</td>
             </tr>
             <tr>
-              <td> 10 Sessions </td>
-              <td> $52.00 </td>
+              <td class="hours-text-day">Tuesday:</td>
+              <td class="hours-text-hours">8am to 5:45pm</td>
+              <td class="hours-text-check">&#10004;</i></td>
             </tr>
             <tr>
-              <td> 15 Sessions </td>
-              <td> $71.00 </td>
+              <td class="hours-text-day">Wednesday:</td>
+              <td class="hours-text-hours">8am to 7pm</td>
+              <td class="hours-text-check">&#10004;</td>
             </tr>
             <tr>
-              <td> 20 Sessions </td>
-              <td> $89.00 </td>
+              <td class="hours-text-day">Thursday:</td>
+              <td class="hours-text-hours">8am to 7pm</td>
+              <td class="hours-text-check">&#10004;</td>
             </tr>
             <tr>
-              <td> 1 Month Unlimited </td>
-              <td> $71.00 </td>
-            </tr>
-             <tr>
-              <td> <span style="text-decoration:underline;font-size:15px;font-weight:bold;">Airbrush Tanning</span> </td>
+              <td class="hours-text-day">Friday:</td>
+              <td class="hours-text-hours">8am to 5:45pm</td>
             </tr>
             <tr>
-              <td> First Session  </td>
-              <td> $29.00 </td>
+              <td class="hours-text-day">Saturday:</td>
+              <td class="hours-text-hours">7:30am to 12:00pm</td>
             </tr>
             <tr>
-              <td> Maintenance </td>
-              <td> $24.00 </td>
+              <td class="hours-text-day">Sunday:</td>
+              <td class="hours-text-hours">Closed</td>
             </tr>
-
           </table>
-
-        </li> <!-- end tanning section -->
-
-        <!-- Massage -->
-        <li><button class="btn btn-default services-button" id="" data-toggle="collapse" data-target="#massage" role="button">Massage</button></li>
-
-
-        <li class="col-md-11 col-md-offset-1 collapse" id="massage">
-
-        <table class="table">
-
-          <tr>
-            <td>*Appointments available Tuesday and Thursday</td>
-          </tr>
-          <tr>
-            <td> <span style="text-decoration:underline;font-size:15px;font-weight:bold;">Types:</span> </td>
-          </tr>
-          <tr>
-            <td>Swedish Massage</td>
-          </tr>
-          <tr>
-            <td>Prenatal Massage</td>
-          </tr>
-          <tr>
-            <td>Deep Tissue Massage</td>
-          </tr>
-          <tr>
-            <td>Myofascial Release</td>
-          </tr>
-          <tr>
-            <td>Trigger Point</td>
-          </tr>
-
-        </table>
-
-        </li> <!-- end massage section -->
-
-        <!-- Wedding and Specialty Sevices -->
-
-        <li><button class="btn btn-default services-button" id="" data-toggle="collapse" data-target="#wedding" role="button">Wedding & Specialty Services</button></li>
-        <li class="col-md-11 col-md-offset-1 collapse" id="wedding">
-
-          <table class="table">
-
-            <tr>
-              <td> <span style="text-decoration:underline;font-size:15px;font-weight:bold;">Wedding</span> </td>
-            </tr>
-             <tr>
-              <p>Allow our staff to help create that amazing, breath-taking special occasion style. <br>
-                  From a young age, many of us have been dreaming about our Wedding Day. <br> 
-                  From the forever romantic to the look of a diva, please allow us to make it unforgettable! <br> 
-                  To help make your wedding day less stressful, we also offer off-site packages.</p>
-            </tr>
-            <tr>
-            <p>Please contact Kathy at <a class="wedding-link"href="mailto:kathy@townandcampushaircare?subject=Wedding Information">kathy@townandcampushaircare.com</a> for more info!</p>
-            </tr>
-            <tr>
-              <td>Special Occassion Hair Styling</td>
-              <td> $45.00 </td>
-            </tr>
-            <tr>
-              <td> Wedding Consultation </td>
-              <td> $30.00 - $45.00 </td>
-            </tr>
-            <tr>
-              <td> Wedding Contract: </td>
-              <td> <a class="wedding-link" href="../build/contracts/WeddingContract.pdf" target="_blank">PDF</a> | <a class="wedding-link" href="..build/contracts/WeddingContract.doc" target="_blank">Word Format</a> </td>
-            </tr>
-             <tr>
-              <td> <span style="text-decoration:underline;font-size:15px;font-weight:bold;">Specialty Services</span> </td>
-            </tr>
-            <tr>
-              <td> Shampoo & Roller Set </td>
-              <td> $16.00 </td>
-            </tr>
-            <tr>
-              <td> Shampoo & Curling Iron </td>
-              <td> $14.75 </td>
-            </tr>
-            <tr>
-              <td> <span style="text-decoration:underline;font-size:15px;font-weight:bold;">Eye Lash Extensions</span> </td>
-            </tr>
-            <tr>
-              <td> Individual Eyelash Application </td>
-              <td> $44.00 </td>
-            </tr>
-            <tr>
-              <td> Eyelash Strip Application </td>
-              <td> $27.00 </td>
-            </tr>
-
-          </table>
-
-        </li> <!-- end Wedding and Special Ocassion section -->
-
-
-        <!-- Close Button -->
-        <li><center><button class="btn btn-default" id="services-close-button" role="button" data-toggle="collapse" data-target="#services">close</button></center></li>
-
-
-      </ul> <!-- end list -->
-    </div> <!-- end surrounding col div -->
-  </section>
-
-
-
-   <!-- HISTORY (initially hidden) -->
-
-  <section class="container-fluid history-content collapse" id="history">
-    <div class="row">
-      <div class="col-md-8 col-md-offset-2">
-        <h1 class="history-title"> History </h1>
-        <p class="history-text">
-        
-          &nbsp&nbsp&nbsp&nbsp&nbsp 
-          In December 1966 Richard Deaner and Fred Busby formed a partnership to establish a barbershop at 14 Carlisle Street in downtown Gettysburg at and called themselves Town & Campus Barber Shop. Richard cut hair in downtown Gettysburg (Town) and Fred cut hair at Gettysburg College (Campus); hence the name.
-          <br></br>
-          &nbsp&nbsp&nbsp&nbsp&nbsp 
-          They started out as a 3 chair shop and offered a full service barber shop including regular haircuts, flattops, face shaves, facials, neck shaves, tonic rubs, and shampooing. Over the years, they took on many different barbers and partners. Fred left the barber shop in 1970 and Richard continued on. Richard's son Greg started cutting hair in 1980; 5 years later, he became a partner in the business.
-          <br></br>
-          &nbsp&nbsp&nbsp&nbsp&nbsp 
-          In 1985 they hired their first full-time female beautician (Debbie Elliott Bentz) and incorporated a more female friendly atmosphere. In 1987 the salon relocated to 8-10 Carlisle Street (right next door) and increased the chair capacity to 4 chairs. During this time they offered all the barbering services as well as many beauty services including perming, coloring, highlighting, ladies haircutting, shampoo & sets, as well as simple manicures.
-          <br></br>
-          &nbsp&nbsp&nbsp&nbsp&nbsp 
-          With the move and expansion, they also created a receptionist position utilizing the charismatic charm of Doris Deaner -- Greg's mom and Richards' wife. This position is filled today by 3 part time receptionists to cover 60+ hours per week. In 1992 they expanded again, opening a doorway back to the old barbershop to incorporate a 2 room salon. On the one side there was a waiting area and shampoo area, the other side was an 8 chair cutting and working area. Town and Campus Barbershop was slowly evolving into a hair salon which was the current trend of most progressive hair cutting establishments. They changed the name to Town and Campus Hair Care in 1991 to try to attract an ever growing female clientele while being careful not to offend the men. This was a difficult time to have both groups in the salon at the same time. Conversations for the men had to be cleaned up so as to not offend the women and the women couldn't gossip as well with the men close by. They had a good staff that made both groups happy and they continued to grow
-          <br></br>
-          &nbsp&nbsp&nbsp&nbsp&nbsp 
-          In 1998 Richard decided to semi-retire and Greg took control of the business. He immediately incorporated and promoted senior stylist Kathy Smith to salon manager. Under the dual guidance T&C continued to grow until February 2001 when the Pub next door caught fire and burned the salon as well. After the building was condemned and there was no place to cut hair they went to work at their craft in other hair salons in the area. Other salons invited the staff into their salons to continue cutting hair so as not to lose their clientele. After 3 months they then opened a temporary salon at 9 Chambersburg Street. They then worked out of that salon until their current building was completed in June of 2002. With the construction of the new building, there were countless possibilities as to where to take the business. They decided to expand their service offerings to include tanning and massage therapy as well as pedicures and eventually spray tanning.
-          <br></br>
-          &nbsp&nbsp&nbsp&nbsp&nbsp 
-          Today we are a full service salon with spa features in certain areas. Our hours of operation have also increased to 6 days a week.
-          </p>
-          <center><button class="btn btn-default" id="history-close-button" data-toggle="collapse" data-target="#history"role="button">Close</button></center>
-      </div>
-    </div> <!-- end row -->
-
-  </section>
-
-    <!-- BODY NAV (Hours/Services/Staff) -->
-
-  <section class="container-fluid body-section" id="body-div">
-
-    <div class="row icon-container">
-
-        <div class="col-md-4">
-          <img src="../img/Clock-100.png" class="body-icon" data-toggle="collapse" data-target="#hours">
-          <h2 class="icon-caption">Hours</h2>
-        </div>
-
-        <div class="col-md-4">
-          <img src="../img/Cut-100.png" class="body-icon" data-toggle="collapse" data-target="#services">
-          <h2 class="icon-caption">Services & Pricing</h2>
-        </div>
-
-        <div class="col-md-4">
-          <img src="../img/University-100.png" class="body-icon" data-toggle="collapse" data-target="#history">
-          <h2 class="icon-caption">History</h2>
-        </div>
-    </div> <!-- end row -->
-    <div id="about">
-</div>
-  </section>
-
-
-
-  <!-- ABOUT -->
-
-  <section class="container-fluid about-content">
-    <div class="row">
-      <div class="col-md-6 col-md-offset-3">
-        <h1 class="about-title"> About Us </h1>
-        <p class="about-text">
-        &nbsp&nbsp&nbsp&nbsp&nbsp We invite you to one of the most well-appointed hair salons in Gettysburg. Located just off the square, we offer a wide selection of affordable, quality salon services. Whether you're looking for a modern style cut by one of our Hair Stylists, an Up-Do for a special event, or a traditional men's cut by a Master Barber, our experienced staff is ready to serve you.</p>
-        <p class="about-signature">-Town & Campus Hair Care</p>
-      </div>
-    </div> <!-- end row -->
-
-  </section>
-
-
-  <!-- COUPON FORM -->
-
-  <section class="container-fluid coupon-content">
-      <div class="col-md-6">
-        <div class="col-md-6 pull-right">
-        <h3 class="coupon-title">20% Discount!</h3>
-        <p class="coupon-text">
-        New Customers: Fill out this <br>
-        form and receive a discount on <br>
-        your first appointment.
-        </p>
-        </div>
-      </div>
-     
-      <div class="col-md-6">
-        <form class="coupon-form col-md-6" method="post" name="myemailform" action="form-to-email.php">
-          <div class="form-group">
-          <input type="text" name="name" class="form-control" id="input-name" placeholder="Name">
-          </div>
-          <div class="form-group">
-          <input type="text" name="phone" class="form-control" id="input-phone" placeholder="Phone">
-          </div>
-          <div class="form-group">
-          <input type="text" name="email" class="form-control" id="input-email" placeholder="Email">
-          </div>
-          <button id="send-button" type="submit" name="submit" value="submit" class="btn btn-default">Submit</button>
-        </form> 
-      </div>
-
-  </section>
-
-  <!-- CONTACT -->
-
-  <section class="container-fluid" id="contact-section"> 
-  <div class="container-fluid">
-   <div class="col-md-3 col-md-offset-2">
-        <h2 class="contact-title">Store Location</h2>
-        <!-- Redirects to Google Maps w/ Current Location -->
-        <p class="StoreLocation-text"><a href="https://www.google.com/maps/dir/Current+Location/8+Carlisle+street+Gettysburg+Pennsylvania+17325">
-        Town & Campus Hair Care Inc. <br>
-        8 Carlisle St.<br>
-        Gettysburg, PA 17325
-        </a></p>
-    </div>
-
-    <div class="col-md-3">
-        <h2 class="contact-title">Contact Us</h2>
-          <p class="contact-text"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span><a href="tel:+7173342904"> (717)-334-2904</a></p>
-          <p class="contact-text"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="mailto:info@townandcampushaircare?subject=Hello There!">info@townandcampushaircare.com</a></p>
-          <p class="contact-text"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="mailto:greg@townandcampushaircare?subject=Hello There!">greg@townandcampushaircare.com</a></p>
-    </div>
-        
-
-    <div class="col-md-3">
-        <h2 class="contact-title">Follow Us <br>on <span id="facebook-link"><a href="https://www.facebook.com/TownAndCampus?fref=ts">Facebook</a></span>!</h2>
-        <div class="fb-like" style="margin-top:15px;" data-href="https://www.facebook.com/TownAndCampus?rf=146972688654507" data-width="500px" data-layout="button" data-action="like" data-show-faces="true" data-share="true">
-        </div>
-    </div>
-    </div>
-
-    
-   <!-- COPYRIGHT FOOTER -->
-
-  <footer class="copyright text-center">
-    <p id="footer-text">Copyright 2015 © Town & Campus Hair Care, Inc. All rights reserved.</p>
-    <p id="footer-text">Icons graciously provided by <a href="https://icons8.com/" style="color:#2669A6;">icons8</a></p>
-  </footer> 
-   
-
-  </section>
-
-
-  
-    <!-- Facebook Plugin SDK -->
-    <div id="fb-root"></div>
-    <script>(function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
-    fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
-
-
-  <!-- jQuery CDN -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-  <!-- Bootstrap JS CDN -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-  <!-- Bootstrap JS local fallback -->
-  <script>if(typeof($.fn.modal) === 'undefined') {document.write('<script src="/js/bootstrap.min.js"><\/script>')}</script>
-  <!-- Bootstrap CSS local fallback -->
-  <script>
-    $(document).ready(function() {
-    var bodyColor = $('body').css('color');
-    if(bodyColor != 'rgb(51, 51, 51)') {
-    $("head").prepend('<link rel="stylesheet" href="/css/bootstrap.min.css">');}});
-  </script>
-
-
-  </body>
-</html>
+          </div> <!-- end column -->
+          </div> <!-- end row -->
+        </section>
+        <!-- SERVICES AND PRICING (initially hidden) -->
+        <section class="container-fluid services-content collapse" id="services">
+          <div class="col-md-6 col-md-offset-3">
+            <h1 class="services-title">Services</h1>
+            <ul>
+              <!-- HAIR -->
+              <li>
+                <button class="btn btn-default services-button" data-toggle="collapse" data-target="#hair-list" role="button">Hair</button>
+                <ul id="hair-list" class="collapse">
+                  <li>
+                    <!-- Haircutting -->
+                    <li class="col-md-10 col-md-offset-1"><button class="btn btn-default services-button" data-toggle="collapse" data-target="#haircutting" role="button">Haircutting</button></li>
+                    <li class="col-md-11 col-md-offset-1 collapse" id="haircutting">
+                      <table class="table">
+                        <tr>
+                          <td> <span style="text-decoration:underline;font-size:15px;font-weight:bold;">Male</span> </td>
+                        </tr>
+                        <tr>
+                          <td>Regular Dry Haircut</td>
+                          <td> $14.50 </td>
+                        </tr>
+                        <tr>
+                          <td>Regular Flattops</td>
+                          <td> $15.50 </td>
+                        </tr>
+                        <tr>
+                          <td>Wet Cut, Blow Dry & Style</td>
+                          <td> $19.75 </td>
+                        </tr>
+                        <tr>
+                          <td>Shampoo, Blow Dry & Style</td>
+                          <td> $24.00 </td>
+                        </tr>
+                        <tr>
+                          <td> Hot Lather Face Shave </td>
+                          <td> $22.00 </td>
+                        </tr>
+                        <tr>
+                          <td> Facial Hair Trimming </td>
+                          <td> $3.25 - $6.75 </td>
+                        </tr>
+                        <tr>
+                          <td> <span style="text-decoration:underline;font-size:15px;font-weight:bold;">Female</span> </td>
+                        </tr>
+                        <tr>
+                          <td> Bang Trim </td>
+                          <td> $10.50 </td>
+                        </tr><tr>
+                        <td> Dry Haircut (Short) </td>
+                        <td> $16.00 </td>
+                      </tr><tr>
+                      <td> Wet Cut, Blow Dry & Style </td>
+                      <td> $27.00 </td>
+                    </tr><tr>
+                    <td> Shampoo, Blow Dry & Style </td>
+                    <td> $31.00 </td>
+                  </tr>
+                </table>
+              </li>
+              </li> <!-- end haircutting section -->
+              <li>
+                <!-- Color -->
+                <li class="col-md-10 col-md-offset-1"><button class="btn btn-default services-button" data-toggle="collapse" data-target="#color" role="button">Color</button></li>
+                <li class="col-md-11 col-md-offset-1 collapse" id="color">
+                  <table class="table">
+                    <tr>
+                      <td>Goldwell Color</td>
+                      <td> $45.00 </td>
+                    </tr>
+                    <tr>
+                      <td>Highlights with Bleach thru Cap</td>
+                      <td> $49.00 </td>
+                    </tr>
+                    <tr>
+                      <td>Minimum Foil Charge</td>
+                      <td> $28.00</td>
+                    </tr>
+                    <tr>
+                      <td>6-10 Foils</td>
+                      <td> Each Foil $5.50 </td>
+                    </tr>
+                    <tr>
+                      <td> 11-20 Foils </td>
+                      <td> Each Foil $5.00 </td>
+                    </tr>
+                    <tr>
+                      <td> More than 20 Foils </td>
+                      <td> Each Foil $4.50 </td>
+                    </tr>
+                    <tr>
+                      <td> Bleach 2'' to 6'' Hair </td>
+                      <td> $54.00 </td>
+                    </tr><tr>
+                    <td> Bleach over 6'' </td>
+                    <td> Call for Pricing</td>
+                  </tr>
+                  <tr>
+                    <td> Color Correction </td>
+                    <td> Call for Pricing </td>
+                  </tr>
+                </table>
+                </li> <!-- end color section -->
+              </li>
+              <li>
+                <!-- Perm -->
+                <li class="col-md-10 col-md-offset-1"><button class="btn btn-default services-button"  data-toggle="collapse" data-target="#perm" role="button">Perm</button></li>
+                <li class="col-md-11 col-md-offset-1 collapse" id="perm">
+                  <table class="table">
+                    <tr>
+                      <td>Partial Perm (less than 20 rollers)</td>
+                      <td> $52.00 </td>
+                    </tr>
+                    <tr>
+                      <td>Regular Perm</td>
+                      <td> $69.00 </td>
+                    </tr>
+                    <tr>
+                      <td> Spiral Perm </td>
+                      <td> $96.00 </td>
+                    </tr>
+                  </table>
+                  </li> <!-- end perm section -->
+                </li>
+                </ul> <!-- end hair-list -->
+              </li>
+              <!-- END HAIR -->
+              <li>
+                <!-- SALON -->
+                <button class="btn btn-default services-button" data-toggle="collapse" data-target="#salon-list" role="button">Salon</button>
+                <ul id="salon-list" class="collapse">
+                  <li>
+                    <!-- Waxing -->
+                    <li class="col-md-10 col-md-offset-1"><button class="btn btn-default services-button" id="" data-toggle="collapse" data-target="#waxing" role="button">Waxing</button></li>
+                    <li class="col-md-11 col-md-offset-1 collapse" id="waxing">
+                      <table class="table">
+                        <tr>
+                          <td> <span style="text-decoration:underline;font-size:15px;font-weight:bold;">Brazilian Waxing</span> </td>
+                        </tr>
+                        <tr>
+                          <td>Bikini Wax</td>
+                          <td> $30.00 - $40.00 </td>
+                        </tr>
+                        <tr>
+                          <td>Brazilian Bikini Wax</td>
+                          <td> $45.00 - $50.00 </td>
+                        </tr>
+                        <tr>
+                          <td> Sensual Brazilian Wax </td>
+                          <td> $55.00 - $62.00 </td>
+                        </tr>
+                        <tr>
+                          <td> Full Monty Wax </td>
+                          <td> $60.00 - $70.00 </td>
+                        </tr>
+                        <tr>
+                          <td> Buttocks Only </td>
+                          <td> $20.00 - $30.00 </td>
+                        </tr>
+                        <tr>
+                          <td> Underarm Wax </td>
+                          <td> $20.00 - $30.00 </td>
+                        </tr>
+                        <tr>
+                          <td> Leg Wax: Half Legs </td>
+                          <td> $60.00 </td>
+                        </tr>
+                        <tr>
+                          <td> Leg Wax: Full Legs </td>
+                          <td> $110.00 </td>
+                        </tr>
+                        <tr>
+                          <td> <span style="text-decoration:underline;font-size:15px;font-weight:bold;">Mens Waxing</span> </td>
+                        </tr>
+                        <tr>
+                          <td> Chest Wax </td>
+                          <td> $30.00 and up </td>
+                        </tr>
+                        <tr>
+                          <td> Back Wax </td>
+                          <td> $30.00 and up </td>
+                        </tr>
+                        <tr>
+                          <td> <span style="text-decoration:underline;font-size:15px;font-weight:bold;">Facial Waxing</span> </td>
+                        </tr>
+                        <tr>
+                          <td> Eyebrow First Visit </td>
+                          <td> $12.50 </td>
+                        </tr>
+                        <tr>
+                          <td> Eyebrow Maintenance </td>
+                          <td> $12.00 </td>
+                        </tr>
+                        <tr>
+                          <td> Lip, Chin, or Sideburns </td>
+                          <td> $11.00 </td>
+                        </tr>
+                      </table>
+                    </li>
+                    </li> <!-- end waxing section -->
+                    <li>
+                      
+                      <!-- Spa & Nails -->
+                      <li class="col-md-10 col-md-offset-1"><button class="btn btn-default services-button" id="" data-toggle="collapse" data-target="#spa-services" role="button">Spa & Nails</button></li>
+                      <li class="col-md-11 col-md-offset-1 collapse" id="spa-services">
+                        <table class="table">
+                          <tr>
+                            <td> <span style="text-decoration:underline;font-size:15px;font-weight:bold;">Manicures</span> </td>
+                          </tr>
+                          <tr>
+                            <td>Female Manicure</td>
+                            <td> $24.00</td>
+                          </tr>
+                          <tr>
+                            <td>French Tip Manicure</td>
+                            <td> $29.00 </td>
+                          </tr>
+                          <tr>
+                            <td> Male Manicure </td>
+                            <td> $19.00 </td>
+                          </tr>
+                          <tr>
+                            <td> Paraffin Dip </td>
+                            <td> $7.25 </td>
+                          </tr>
+                          <tr>
+                            <td> <span style="text-decoration:underline;font-size:15px;font-weight:bold;">Pedicures</span> </td>
+                          </tr>
+                          <tr>
+                            <td> T&C Pedicure </td>
+                            <td> $37.00 </td>
+                          </tr>
+                          <tr>
+                            <td> Spa Pedicure</td>
+                            <td> $43.00 </td>
+                          </tr>
+                          <tr>
+                            <td> Male Pedicure </td>
+                            <td> $31.00 </td>
+                          </tr>
+                          <tr>
+                            <td> French Tip on Toes </td>
+                            <td> Add $6.25 </td>
+                          </tr>
+                          <tr>
+                            <td> <span style="text-decoration:underline;font-size:15px;font-weight:bold;">Facials</span> </td>
+                          </tr>
+                          <tr>
+                            <td> Spa Facial </td>
+                            <td> $36.00 </td>
+                          </tr>
+                        </table>
+                      </li>
+                      </li> <!-- end Spa Services section -->
+                      <li>
+                        <!-- Tanning -->
+                        <li class="col-md-10 col-md-offset-1"><button class="btn btn-default services-button" id="" data-toggle="collapse" data-target="#tanning" role="button">Tanning</button></li>
+                        <li class="col-md-11 col-md-offset-1 collapse" id="tanning">
+                          <table class="table">
+                            <tr>
+                              <td> <span style="text-decoration:underline;font-size:15px;font-weight:bold;">UV Tanning</span> </td>
+                            </tr>
+                            <tr>
+                              <td>1 Session</td>
+                              <td> $7.00 </td>
+                            </tr>
+                            <tr>
+                              <td> 5 Sessions </td>
+                              <td> $29.00 </td>
+                            </tr>
+                            <tr>
+                              <td> 10 Sessions </td>
+                              <td> $52.00 </td>
+                            </tr>
+                            <tr>
+                              <td> 15 Sessions </td>
+                              <td> $71.00 </td>
+                            </tr>
+                            <tr>
+                              <td> 20 Sessions </td>
+                              <td> $89.00 </td>
+                            </tr>
+                            <tr>
+                              <td> 1 Month Unlimited </td>
+                              <td> $71.00 </td>
+                            </tr>
+                            <tr>
+                              <td> <span style="text-decoration:underline;font-size:15px;font-weight:bold;">Airbrush Tanning</span> </td>
+                            </tr>
+                            <tr>
+                              <td> First Session  </td>
+                              <td> $29.00 </td>
+                            </tr>
+                            <tr>
+                              <td> Maintenance </td>
+                              <td> $24.00 </td>
+                            </tr>
+                          </table>
+                        </li>
+                        </li> <!-- end tanning section -->
+                        <!-- Massage -->
+                        <li class="col-md-10 col-md-offset-1"><button class="btn btn-default services-button" id="" data-toggle="collapse" data-target="#massage" role="button">Massage</button></li>
+                        <li class="col-md-11 col-md-offset-1 collapse" id="massage">
+                          <table class="table">
+                            <tr>
+                              <td>*Appointments available Tuesday and Thursday</td>
+                            </tr>
+                            <tr>
+                              <td> <span style="text-decoration:underline;font-size:15px;font-weight:bold;">Types:</span> </td>
+                            </tr>
+                            <tr>
+                              <td>Swedish Massage</td>
+                            </tr>
+                            <tr>
+                              <td>Prenatal Massage</td>
+                            </tr>
+                            <tr>
+                              <td>Deep Tissue Massage</td>
+                            </tr>
+                            <tr>
+                              <td>Myofascial Release</td>
+                            </tr>
+                            <tr>
+                              <td>Trigger Point</td>
+                            </tr>
+                          </table>
+                          </li> <!-- end massage section -->
+                        </li>
+                      </ul>
+                      <!-- END SALON -->
+                      <li>
+                        <!-- Wedding and Specialty Sevices -->
+                        <li><button class="btn btn-default services-button" id="" data-toggle="collapse" data-target="#wedding" role="button">Wedding & Specialty Services</button></li>
+                        <li class="col-md-11 col-md-offset-1 collapse" id="wedding">
+                          <table class="table">
+                            <tr>
+                              <td> <span style="text-decoration:underline;font-size:15px;font-weight:bold;">Wedding</span> </td>
+                            </tr>
+                            <tr>
+                              <p>Allow our staff to help create that amazing, breath-taking special occasion style. <br>
+                                From a young age, many of us have been dreaming about our Wedding Day. <br>
+                                From the forever romantic to the look of a diva, please allow us to make it unforgettable! <br>
+                              To help make your wedding day less stressful, we also offer off-site packages.</p>
+                            </tr>
+                            <tr>
+                              <p>Please contact Kathy at <a class="wedding-link"href="mailto:kathy@townandcampushaircare?subject=Wedding Information">kathy@townandcampushaircare.com</a> for more info!</p>
+                            </tr>
+                            <tr>
+                              <td>Special Occassion Hair Styling</td>
+                              <td> $45.00 </td>
+                            </tr>
+                            <tr>
+                              <td> Wedding Consultation </td>
+                              <td> $30.00 - $45.00 </td>
+                            </tr>
+                            <tr>
+                              <td> Wedding Contract: </td>
+                              <td> <a class="wedding-link" href="../build/contracts/WeddingContract.pdf" target="_blank">PDF</a> | <a class="wedding-link" href="..build/contracts/WeddingContract.doc" target="_blank">Word Format</a> </td>
+                            </tr>
+                            <tr>
+                              <td> <span style="text-decoration:underline;font-size:15px;font-weight:bold;">Specialty Services</span> </td>
+                            </tr>
+                            <tr>
+                              <td> Shampoo & Roller Set </td>
+                              <td> $16.00 </td>
+                            </tr>
+                            <tr>
+                              <td> Shampoo & Curling Iron </td>
+                              <td> $14.75 </td>
+                            </tr>
+                            <tr>
+                              <td> <span style="text-decoration:underline;font-size:15px;font-weight:bold;">Eye Lash Extensions</span> </td>
+                            </tr>
+                            <tr>
+                              <td> Individual Eyelash Application </td>
+                              <td> $44.00 </td>
+                            </tr>
+                            <tr>
+                              <td> Eyelash Strip Application </td>
+                              <td> $27.00 </td>
+                            </tr>
+                          </table>
+                          </li> <!-- end Wedding and Special Ocassion section -->
+                        </li>
+                        </ul> <!-- end outer-list -->
+                        
+                        
+                        
+                        
+                        
+                        <!-- Close Button -->
+                        <center><button class="btn btn-default" id="services-close-button" role="button" data-toggle="collapse" data-target="#services">close</button></center>
+                        </div> <!-- end surrounding col div -->
+                      </section>
+                      <!-- HISTORY (initially hidden) -->
+                      <section class="container-fluid history-content collapse" id="history">
+                        <div class="row">
+                          <div class="col-md-8 col-md-offset-2">
+                            <h1 class="history-title"> History </h1>
+                            <p class="history-text">
+                              
+                              &nbsp&nbsp&nbsp&nbsp&nbsp
+                              In December 1966 Richard Deaner and Fred Busby formed a partnership to establish a barbershop at 14 Carlisle Street in downtown Gettysburg at and called themselves Town & Campus Barber Shop. Richard cut hair in downtown Gettysburg (Town) and Fred cut hair at Gettysburg College (Campus); hence the name.
+                              <br></br>
+                              &nbsp&nbsp&nbsp&nbsp&nbsp
+                              They started out as a 3 chair shop and offered a full service barber shop including regular haircuts, flattops, face shaves, facials, neck shaves, tonic rubs, and shampooing. Over the years, they took on many different barbers and partners. Fred left the barber shop in 1970 and Richard continued on. Richard's son Greg started cutting hair in 1980; 5 years later, he became a partner in the business.
+                              <br></br>
+                              &nbsp&nbsp&nbsp&nbsp&nbsp
+                              In 1985 they hired their first full-time female beautician (Debbie Elliott Bentz) and incorporated a more female friendly atmosphere. In 1987 the salon relocated to 8-10 Carlisle Street (right next door) and increased the chair capacity to 4 chairs. During this time they offered all the barbering services as well as many beauty services including perming, coloring, highlighting, ladies haircutting, shampoo & sets, as well as simple manicures.
+                              <br></br>
+                              &nbsp&nbsp&nbsp&nbsp&nbsp
+                              With the move and expansion, they also created a receptionist position utilizing the charismatic charm of Doris Deaner -- Greg's mom and Richards' wife. This position is filled today by 3 part time receptionists to cover 60+ hours per week. In 1992 they expanded again, opening a doorway back to the old barbershop to incorporate a 2 room salon. On the one side there was a waiting area and shampoo area, the other side was an 8 chair cutting and working area. Town and Campus Barbershop was slowly evolving into a hair salon which was the current trend of most progressive hair cutting establishments. They changed the name to Town and Campus Hair Care in 1991 to try to attract an ever growing female clientele while being careful not to offend the men. This was a difficult time to have both groups in the salon at the same time. Conversations for the men had to be cleaned up so as to not offend the women and the women couldn't gossip as well with the men close by. They had a good staff that made both groups happy and they continued to grow
+                              <br></br>
+                              &nbsp&nbsp&nbsp&nbsp&nbsp
+                              In 1998 Richard decided to semi-retire and Greg took control of the business. He immediately incorporated and promoted senior stylist Kathy Smith to salon manager. Under the dual guidance T&C continued to grow until February 2001 when the Pub next door caught fire and burned the salon as well. After the building was condemned and there was no place to cut hair they went to work at their craft in other hair salons in the area. Other salons invited the staff into their salons to continue cutting hair so as not to lose their clientele. After 3 months they then opened a temporary salon at 9 Chambersburg Street. They then worked out of that salon until their current building was completed in June of 2002. With the construction of the new building, there were countless possibilities as to where to take the business. They decided to expand their service offerings to include tanning and massage therapy as well as pedicures and eventually spray tanning.
+                              <br></br>
+                              &nbsp&nbsp&nbsp&nbsp&nbsp
+                              Today we are a full service salon with spa features in certain areas. Our hours of operation have also increased to 6 days a week.
+                            </p>
+                            <center><button class="btn btn-default" id="history-close-button" data-toggle="collapse" data-target="#history"role="button">Close</button></center>
+                          </div>
+                          </div> <!-- end row -->
+                        </section>
+                        <!-- BODY NAV (Hours/Services/Staff) -->
+                        <section class="container-fluid body-section" id="body-div">
+                          <div class="row icon-container">
+                            <div class="col-md-4">
+                              <img src="../img/Clock-100.png" class="body-icon" data-toggle="collapse" data-target="#hours">
+                              <h2 class="icon-caption">Hours</h2>
+                            </div>
+                            <div class="col-md-4">
+                              <img src="../img/Cut-100.png" class="body-icon" data-toggle="collapse" data-target="#services">
+                              <h2 class="icon-caption">Services & Pricing</h2>
+                            </div>
+                            <div class="col-md-4">
+                              <img src="../img/University-100.png" class="body-icon" data-toggle="collapse" data-target="#history">
+                              <h2 class="icon-caption">History</h2>
+                            </div>
+                            </div> <!-- end row -->
+                            <div id="about">
+                            </div>
+                          </section>
+                          <!-- ABOUT -->
+                          <section class="container-fluid about-content">
+                            <div class="row">
+                              <div class="col-md-6 col-md-offset-3">
+                                <h1 class="about-title"> About Us </h1>
+                                <p class="about-text">
+                                &nbsp&nbsp&nbsp&nbsp&nbsp We invite you to one of the most well-appointed hair salons in Gettysburg. Located just off the square, we offer a wide selection of affordable, quality salon services. Whether you're looking for a modern style cut by one of our Hair Stylists, an Up-Do for a special event, or a traditional men's cut by a Master Barber, our experienced staff is ready to serve you.</p>
+                                <p class="about-signature">-Town & Campus Hair Care</p>
+                              </div>
+                              </div> <!-- end row -->
+                            </section>
+                            <!-- COUPON FORM -->
+                            <section class="container-fluid coupon-content">
+                              <div class="col-md-6">
+                                <div class="col-md-6 pull-right">
+                                  <h3 class="coupon-title">20% Discount!</h3>
+                                  <p class="coupon-text">
+                                    New Customers: Fill out this <br>
+                                    form and receive a discount on <br>
+                                    your first appointment.
+                                  </p>
+                                </div>
+                              </div>
+                              
+                              <div class="col-md-6">
+                                <form class="coupon-form col-md-6" method="post" name="myemailform" action="form-to-email.php">
+                                  <div class="form-group">
+                                    <input type="text" name="name" class="form-control" id="input-name" placeholder="Name">
+                                  </div>
+                                  <div class="form-group">
+                                    <input type="text" name="phone" class="form-control" id="input-phone" placeholder="Phone">
+                                  </div>
+                                  <div class="form-group">
+                                    <input type="text" name="email" class="form-control" id="input-email" placeholder="Email">
+                                  </div>
+                                  <button id="send-button" type="submit" name="submit" value="submit" class="btn btn-default">Submit</button>
+                                </form>
+                              </div>
+                            </section>
+                            <!-- CONTACT -->
+                            <section class="container-fluid" id="contact-section">
+                              <div class="container-fluid">
+                                <div class="col-md-3 col-md-offset-2">
+                                  <h2 class="contact-title">Store Location</h2>
+                                  <!-- Redirects to Google Maps w/ Current Location -->
+                                  <p class="StoreLocation-text"><a href="https://www.google.com/maps/dir/Current+Location/8+Carlisle+street+Gettysburg+Pennsylvania+17325">
+                                    Town & Campus Hair Care Inc. <br>
+                                    8 Carlisle St.<br>
+                                    Gettysburg, PA 17325
+                                  </a></p>
+                                </div>
+                                <div class="col-md-3">
+                                  <h2 class="contact-title">Contact Us</h2>
+                                  <p class="contact-text"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span><a href="tel:+7173342904"> (717)-334-2904</a></p>
+                                  <p class="contact-text"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="mailto:info@townandcampushaircare?subject=Hello There!">info@townandcampushaircare.com</a></p>
+                                  <p class="contact-text"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="mailto:greg@townandcampushaircare?subject=Hello There!">greg@townandcampushaircare.com</a></p>
+                                </div>
+                                
+                                <div class="col-md-3">
+                                  <h2 class="contact-title">Follow Us <br>on <span id="facebook-link"><a href="https://www.facebook.com/TownAndCampus?fref=ts">Facebook</a></span>!</h2>
+                                  <div class="fb-like" style="margin-top:15px;" data-href="https://www.facebook.com/TownAndCampus?rf=146972688654507" data-width="500px" data-layout="button" data-action="like" data-show-faces="true" data-share="true">
+                                  </div>
+                                </div>
+                              </div>
+                              
+                              <!-- COPYRIGHT FOOTER -->
+                              <footer class="copyright text-center">
+                                <p id="footer-text">Copyright 2015 © Town & Campus Hair Care, Inc. All rights reserved.</p>
+                                <p id="footer-text">Icons graciously provided by <a href="https://icons8.com/" style="color:#2669A6;">icons8</a></p>
+                              </footer>
+                              
+                            </section>
+                            
+                            <!-- Facebook Plugin SDK -->
+                            <div id="fb-root"></div>
+                            <script>(function(d, s, id) {
+                            var js, fjs = d.getElementsByTagName(s)[0];
+                            if (d.getElementById(id)) return;
+                            js = d.createElement(s); js.id = id;
+                            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
+                            fjs.parentNode.insertBefore(js, fjs);
+                            }(document, 'script', 'facebook-jssdk'));</script>
+                            <!-- jQuery CDN -->
+                            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+                            <!-- Bootstrap JS CDN -->
+                            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+                            <!-- Bootstrap JS local fallback -->
+                            <script>if(typeof($.fn.modal) === 'undefined') {document.write('<script src="/js/bootstrap.min.js"><\/script>')}</script>
+                            <!-- Bootstrap CSS local fallback -->
+                            <script>
+                            $(document).ready(function() {
+                            var bodyColor = $('body').css('color');
+                            if(bodyColor != 'rgb(51, 51, 51)') {
+                            $("head").prepend('<link rel="stylesheet" href="/css/bootstrap.min.css">');}});
+                            </script>
+                          </body>
+                        </html>
