@@ -20,7 +20,7 @@ gulp.task('minify-index', function() {
 		spare: true
 	};
 
-	return gulp.src(['./main.html'])
+	return gulp.src(['src/main.html'])
 		.pipe(minifyHTML(opts))
 		.pipe(rename('index.html'))
 		.pipe(gulp.dest('./build'));
@@ -42,7 +42,7 @@ gulp.task('minify-html', function() {
 gulp.task('styles', function(){
 	return gulp.src(['src/css/bootstrap.min.css', 'src/css/custom.css'])
 		.pipe(uncss({
-			html: ['./main.html', 'src/views/*.html'], ignore: [
+			html: ['src/main.html', 'src/views/*.html'], ignore: [
             ".fade",
             ".fade.in",
             ".collapse",
