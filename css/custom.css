@@ -445,7 +445,12 @@ ul {
 		 	font-size: 19px;
 		 	font-weight: 300;
 		 	line-height: 31px;
-			color: #FF7C58;
+			color: #000;
+		 }
+
+		 .note {
+		 	background-color: #F4F2F0;
+		 	padding: 20px;
 		 }
 
 		#careers-details-button {
