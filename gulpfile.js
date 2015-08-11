@@ -42,7 +42,7 @@ gulp.task('minify-html', function() {
 gulp.task('styles', function(){
 	return gulp.src(['src/css/bootstrap.min.css', 'src/css/custom.css'])
 		.pipe(uncss({
-			html: ['./index.html', 'src/views/*.html'], ignore: [
+			html: ['./main.html', 'src/views/*.html'], ignore: [
             ".fade",
             ".fade.in",
             ".collapse",
