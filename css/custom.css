@@ -242,12 +242,10 @@ ul {
 
 
 
-
-
-
 /*
 *	SERVICES AND PRICING
 */
+
 
 .services-title {
 
@@ -260,7 +258,7 @@ ul {
 .services-button {
 	margin-bottom: 10px;
 	width: 100%;
-	padding: 20px 200px;
+	padding: 20px;
 	border-radius: 0;
 	border-color: #2569B0;
 	color: #FF7C58;
@@ -479,19 +477,25 @@ ul {
 	padding-bottom: 50px;
 	background-color: #2E283C;
 }
-
-	.coupon-title {
-		text-align: left;
-		color: #fff;
-		font-size: 34px;
+	
+	.coupon-text-container {
+		margin-top: -17px;
 	}
 
-	.coupon-text {
-		text-align: left;
-		font-family: 'Lato', sans-serif;
-		color: #fff;
-		font-size: 19px;
-	}
+
+
+		.coupon-title {
+			text-align: left;
+			color: #fff;
+			font-size: 34px;
+		}
+
+		.coupon-text {
+			text-align: left;
+			font-family: 'Lato', sans-serif;
+			color: #fff;
+			font-size: 19px;
+		}
 
 	/* Controls the rows in the form */
 	.form-control {
@@ -563,7 +567,6 @@ ul {
 	/* Fixes alignment of glyphicons in CONTACT section */
 	.glyphicon {
 		top: 2px;
-		right: 10px;
 		color: #009FC7;
 	}
 
