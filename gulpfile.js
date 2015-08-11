@@ -23,7 +23,7 @@ gulp.task('minify-index', function() {
 	return gulp.src(['./main.html'])
 		.pipe(minifyHTML(opts))
 		.pipe(rename('index.html'))
-		.pipe(gulp.dest('./'));
+		.pipe(gulp.dest('./build'));
 	});
 
 // HTML - Minify /views
